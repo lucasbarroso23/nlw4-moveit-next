@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { ChallengesContext } from "../contexts/ChallangesContext";
 import styles from "../styles/components/ChallengeBox.module.css";
 
 export function ChallengeBox() {
